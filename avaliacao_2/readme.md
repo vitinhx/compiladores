@@ -2,7 +2,7 @@
 
 Esta pasta é dedicada para a avaliação 2 da disciplina.
 
-##Discentes: 
+## Discentes: 
   - Matheus Lima do Couto
   - Victor Ivan Silva Silveira
 
