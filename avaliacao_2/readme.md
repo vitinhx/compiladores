@@ -1,4 +1,4 @@
-# Avaliação 2 - Disciplina (Equipe)
+# Avaliação 2 - (Equipe)
 
 Esta pasta é dedicada para a avaliação 2 da disciplina.
 
