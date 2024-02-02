@@ -1,4 +1,4 @@
-# Avaliação 1 - Disciplina
+# Avaliação 1 (Equipe)
 
 ## Discentes:
   - Matheus Lima do Couto
