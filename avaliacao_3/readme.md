@@ -1,4 +1,4 @@
-# Avaliação 3 - Disciplina (Individual)
+# Avaliação 3 - (Individual)
 
 ## Discente: 
   - Victor Ivan Silva Silveira
