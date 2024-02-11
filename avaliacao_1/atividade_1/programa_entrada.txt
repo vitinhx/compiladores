@@ -1,0 +1,6 @@
+a = 30;
+b = 'teste';
+if(a > 10){
+	show(b);
+};
+end;
