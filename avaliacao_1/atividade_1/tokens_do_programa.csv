@@ -1,0 +1,37 @@
+id,tipo,nome
+0,id,a
+1,sp,' '
+2,sb,=
+3,sp,' '
+4,lt,30
+5,tr,;
+6,ql,\n
+7,id,b
+8,sp,' '
+9,sb,=
+10,sp,' '
+11,lt,'teste'
+12,tr,;
+13,ql,\n
+14,kw,if
+15,sb,(
+16,id,a
+17,sp,' '
+18,sb,>
+19,sp,' '
+20,lt,10
+21,sb,)
+22,sb,{
+23,ql,\n
+24,kw,show
+25,sb,(
+26,id,b
+27,sb,)
+28,tr,;
+29,ql,\n
+30,sb,}
+31,tr,;
+32,ql,\n
+33,kw,end
+34,tr,;
+35,ql,\n
