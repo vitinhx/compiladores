@@ -32,6 +32,53 @@ id,tipo,nome
 30,sb,}
 31,tr,;
 32,ql,\n
-33,kw,end
-34,tr,;
-35,ql,\n
+33,id,c
+34,sp,' '
+35,sb,=
+36,sp,' '
+37,lt,true
+38,tr,;
+39,ql,\n
+40,id,d
+41,sp,' '
+42,sb,=
+43,sp,' '
+44,lt,false
+45,tr,;
+46,ql,\n
+47,kw,if
+48,sb,(
+49,id,a
+50,sp,' '
+51,sb,or
+52,sp,' '
+53,id,b
+54,sb,)
+55,sb,{
+56,ql,\n
+57,tb,'    '
+58,kw,show
+59,sb,(
+60,id,a
+61,sb,)
+62,tr,;
+63,ql,\n
+64,sb,}
+65,tr,;
+66,ql,\n
+67,id,e
+68,sp,' '
+69,sb,=
+70,sp,' '
+71,lt,'victor'
+72,tr,;
+73,ql,\n
+74,kw,show
+75,sb,(
+76,id,e
+77,sb,)
+78,tr,;
+79,ql,\n
+80,kw,end
+81,tr,;
+82,ql,\n
