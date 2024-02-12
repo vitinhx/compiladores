@@ -3,4 +3,13 @@ b = 'teste';
 if(a > 10){
 	show(b);
 };
+
+c = true;
+d = false;
+if(a or b){
+    show(a);
+};
+
+e = 'victor';
+show(e);
 end;
