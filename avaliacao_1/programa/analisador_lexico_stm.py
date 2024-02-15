@@ -4,8 +4,13 @@ import pandas as pd
 
 # Regex para separar o programa em linhas
 separador_de_linhas = r"^.+$"
+identificadores = r"(\w+|\'\w+\')"
+simbolos = r"(\=\=|\(|\)|\<\=|\<|\>\=|\>|\!\=|\=|\:|\;|\{|\}|\[|\]|\+|\-|and|or|xor|not|\/)"
+espacos = r"(\s{4}|\s)"
+
 # Regex para encontrar os itens em identificador, literal e símbolo
-tokenizador = r"(\(|\)|\<\=|\<|\>\=|\>|\={2}|\!\=|\=|\:|\;|\{|\}|\[|\]|\+|\-|and|or|xor|not)|(\w+|\'\w+\')|(\s{4}|\s)"
+tokenizador = rf"{simbolos}|{identificadores}|{espacos}"
+
 # Regex para identificar se é numero, booleano ou string (literal)
 literal = r"\d+|\'\w+\'|true|false"
 
@@ -197,7 +202,7 @@ def mostrar_token_linha():
                     elif k == 1:
                         print(f"{'|':<15}", end='')
                     elif k == 2:
-                        print(f"{(tokens_gerais['id'][it], tokens_gerais['tipo'][it])}", end=f'{"":<5}')
+                        print(f"{(tokens_gerais['id'][it], tokens_gerais['tipo'][it])}", end=f'{"":<4}')
                         it = it + 1
                 print()
             lim = 0
@@ -244,7 +249,8 @@ def main():
     global tokens_gerais
 
     # Leitura do programa (entrada) da linguagem STM através de um arquivo .txt
-    with open('programa_entrada.txt', 'r') as arquivo:
+    # Caso queira mudar o programa, edite o arquivo .txt, salve o arquivo e rode o programa
+    with open('../entrada/programa_entrada.txt', 'r') as arquivo:
         programa = arquivo.read()
     separar_linhas(programa)
 
@@ -281,7 +287,7 @@ def main():
 
     # Transformando os tokens para um arquivo .csv para ser usado posteriormente em análise sintática
     tokens_gerais_df = pd.DataFrame(tokens_gerais)
-    tokens_gerais_df.to_csv('tokens_do_programa.csv', index=False)
+    tokens_gerais_df.to_csv('../saida/tokens_do_programa.csv', index=False)
 
 
 if __name__ == "__main__":
