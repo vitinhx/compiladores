@@ -228,7 +228,7 @@ def mostrar_informacoes():
 
 # Função main do programa do gerador de código
 def main():
-    global programa
+    global programa, programa_com_quebra
 
     especificar_tokens()
     quebrar_linhas_programa()
@@ -253,9 +253,14 @@ def main():
             mostrar_informacoes()
 
     # criação de um arquivo .txt para ser usado no Jflap
-    with open("programa_intermediario.txt", 'w') as arquivo:
+
+    with open("programa_intermediario_linha_unica.txt", 'w') as arquivo:
         arquivo.write(programa)
 
+    programa_com_quebra = re.sub(r"\n\Z", "", programa_com_quebra, 0, re.MULTILINE)
+
+    with open("programa_intermediario_com_quebra.txt", 'w') as arquivo:
+        arquivo.write(programa_com_quebra)
 
 if __name__ == "__main__":
     main()
