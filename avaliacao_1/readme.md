@@ -1,17 +1,13 @@
-# Avaliação 1 (Equipe)
-Esta pasta é dedicada para a avaliação 1 da disciplina contendo 4 artefatos como solicitado.
+# Avaliação 1 (Individual)
+Esta pasta é dedicada para a avaliação 1 da disciplina contendo 1 artefato como solicitado.
 
-## Discentes:
-  - Matheus Lima do Couto
+## Discente:
+
   - Victor Ivan Silva Silveira
 
 
-## Lista de Atividades:
+## Analisador léxico para linguagem STM v0.2:
 
-- Atividade 1 (Analisador léxico para linguagem STM):
-    Programa em python que por meio de uso de expressões regulares, que tem como entrada um arquivo .txt renomeado por
-    'programa_entrada.txt', tokeniza os itens do programa e no final de sua execução é gerado um arquivo .csv, 
-    renomeado por 'tokens_do_programa.csv', para ser usada na etapa seguinte (Análise Sintática).
-- Atividade 2
-- Atividade 3
-- Atividade 4
+Programa em python que por meio de uso de expressões regulares, que tem como entrada um arquivo .txt renomeado por
+'programa_entrada.txt', tokeniza os itens do programa e no final de sua execução é gerado um arquivo .csv, 
+renomeado por 'tokens_do_programa.csv', para ser usada na etapa seguinte (Análise Sintática).

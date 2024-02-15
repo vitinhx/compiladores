@@ -1,14 +1,11 @@
-# Avaliação 2 - (Equipe)
+# Avaliação 2 - (Individual)
 
 Esta pasta é dedicada para a avaliação 2 da disciplina.
 
-## Discentes: 
-  - Matheus Lima do Couto
+## Discente:
   - Victor Ivan Silva Silveira
 
-## Lista de Atividades:
+## Gerador de código intermediário para analisador sintático:
 
-- Atividade 1
-- Atividade 2
-- Atividade 3
-- Atividade 4
+Foi proposto um programa em python que a partir de uso de expressões regulares, gera um
+código intermediário a ser analisado, posteriormente, no autômato finito determinístico (DFA).
