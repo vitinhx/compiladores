@@ -1,0 +1,15 @@
+label:
+identificador=constante;
+identificador=string;
+if(identificador-numerico>constante){show(string);};
+identificador=booleano;
+identificador=booleano;
+if(identificador-booleanooridentificador-booleano){show(identificador-numerico);};
+identificador=string;
+show(string);
+identificador=constante;
+identificador=identificador-numerico+identificador-numerico;
+if(identificador-numerico==constante){goto(label);};
+goto(label);
+label:
+end;
