@@ -1,0 +1,25 @@
+inicio:
+    a = 30;
+    b = 'teste';
+    if(a > 10){
+    	show(b);
+    };
+
+    c = true;
+    d = false;
+    if(c or d){
+        show(a);
+    };
+
+    e = 'victor';
+    show(e);
+
+    f = 20;
+    g = f + a;
+    if(g == 50){
+        goto(fim);
+    };
+    goto(inicio);
+
+fim:
+    end;
