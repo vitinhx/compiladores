@@ -34,7 +34,7 @@ renomeado por 'tokens_do_programa.csv', para ser usada na etapa seguinte (Análi
 
 // Expressão relacional:
     <exp_rl>
-        [const | id][== | != | < | > | and | or | not | xor][const | id]
+        [const | id][== | != | <= | < | >= | > | and | or | not | xor][const | id]
 
 // Expressão matemática:
     <exp_m>
