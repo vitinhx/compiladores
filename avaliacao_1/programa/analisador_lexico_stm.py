@@ -230,7 +230,7 @@ def mostrar_estrutura_stm():
           "comandos:\n"
           "<cmd>[;]\n\tshow(<string> | <exp_m> | id)\n\tgoto(<label>)\n\tend\n\t<exp_m>\n\n"
           "expressão relacional:\n"
-          "<exp_rl>\n\t[const | id][== | != | < | > | and | or | not | xor][const | id]\n\n"
+          "<exp_rl>\n\t[const | id][== | != | <= | < | >= | > | and | or | not | xor][const | id]\n\n"
           "expressão matemática:\n"
           "<exp_m>\n\tid = [const | id][+ | - | * | / | ^][const | id]\n\n")
 
